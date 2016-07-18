@@ -156,7 +156,7 @@ public class RadioTapData implements IRadiotapData{
 	 */
 	public void setTFST() {
 		this.TFST = ByteUtils.convertByteArrayToLong(ByteUtils.convertLeToBe(Arrays.copyOfRange(payload, currentIndex, currentIndex+4)));
-		currentIndex = currentIndex + 4;
+		currentIndex = currentIndex + 8;
 	}
 
 	public void setFlags() {
