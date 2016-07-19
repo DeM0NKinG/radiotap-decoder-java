@@ -249,7 +249,7 @@ public class RadioTapData implements IRadiotapData{
 	}
 
 	public void setAmpduStatus() {
-		System.out.println("AMPDU status received... Not treating...");
+		//System.out.println("AMPDU status received... Not treating...");
 		currentIndex = currentIndex + 8;
 	}
 

@@ -25,6 +25,7 @@ public class RadioTapMCS {
 	 */
 	public RadioTapMCS(byte knownField, byte flagsField, byte mcsField) {
 		mcsRate = mcsField;
+		/*
 		switch (knownField) {
 		case 0x03:
 			switch (flagsField) {
@@ -61,6 +62,7 @@ public class RadioTapMCS {
 		case 0x60:
 			System.out.println("Number of STBC streams : " + (flagsField & 0XFF));
 		}
+		*/
 	}
 
 	public byte getMcsRate() {
